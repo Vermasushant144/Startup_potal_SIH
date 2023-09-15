@@ -1,0 +1,18 @@
+#grid-item .uk-card img {
+  filter: grayscale(100%);
+  transition: 0.2s filter linear;
+}
+#grid-item .uk-card img:hover {
+  filter: grayscale(0%);
+}
+#grid-item .uk-card .uk-badge {
+  width: 24px;
+  height: 24px;
+  padding: 18px;
+  font-size: 1em;
+  margin-right: -18px;
+  margin-top: 20%;
+  background-color: #f68d01;
+  color: #fff;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.25);
+}
